@@ -25,6 +25,7 @@ class FormScreenState extends State<FormScreen> {
         if (value.isEmpty) {
           return 'Name is Required';
         }
+        return null;
       },
       onSaved: (String value) {
         _name = value;
